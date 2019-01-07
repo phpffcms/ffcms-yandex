@@ -1,0 +1,29 @@
+{
+  "name": "phpffcms/ffcms-yandex",
+  "description": "Yandex api features for ffcms",
+  "type": "library",
+  "keywords": [
+    "php",
+    "yandex",
+    "ffcms",
+    "api"
+  ],
+  "homepage": "http://ffcms.org",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Pyatinskiy M.M.",
+      "email": "zenn@ffcms.org",
+      "homepage": "http://ffcms.ru"
+    }
+  ],
+  "require": {
+    "php": ">=7.1",
+    "ext-curl": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Ffcms\\": "src/"
+    }
+  }
+}
