@@ -46,9 +46,6 @@ class Request extends NativeRequest
         $url = static::API_BASE . $this->type . '?' . http_build_query($this->params);
         $headers = ['Authorization: OAuth ' . $this->headers->getToken()];
 
-        var_dump($headers);
-        return null;
-
         return self::get($url, $headers);
     }
 }
